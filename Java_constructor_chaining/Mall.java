@@ -25,12 +25,12 @@ class Mall{
 	Mall(String name,String mallType,String location,String owner){
 		this(name,mallType,location);
 		this.owner=owner;
-		System.out.println("Invoking string,string,String,string,String constructor of Mall");
+		System.out.println("Invoking string,string,String,string constructor of Mall");
 	}
 	Mall(String name,String mallType,String location,String owner,int components){
 		this(name,mallType,location,owner);
 		this.components=components;
-		System.out.println("Invoking string,String,string,String,intconstructor of Mall");
+		System.out.println("Invoking string,String,string,String,int constructor of Mall");
 	}
 	Mall(String name,String mallType,String location,String owner,int components,double constructionCost){
 		this(name,mallType,location,owner,components);
