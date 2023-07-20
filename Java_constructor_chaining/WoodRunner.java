@@ -5,7 +5,11 @@ class WoodRunner{
 		
 		System.out.println("##################################");
 		
-		Wood wood = new Wood("HardWood",2500,"Oak");
+		Wood wood1 = new Wood("HardWood",2500,"Oak");
+		
+		System.out.println("##################################");
+		
+		Wood wood2=new Wood("SoftWood",1000);
 		
 	}
 }

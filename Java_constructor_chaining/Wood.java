@@ -4,15 +4,20 @@ class Wood{
 	String woodName;
 	String color;
 	float weight;
-	Wood(String type){
+	
+	Wood(){
 		super();
+		System.out.println("Invoking no-arg constructor of Wood");
+	}
+	Wood(String type){
+		this();
 		this.type=type;
 		System.out.println("Invoking string constructor of Wood");	
 	}
 	Wood(String type,double price){
 		this(type);
 		this.price=price;
-		System.out.println("Invoking string.double constructor of Wood");
+		System.out.println("Invoking string,double constructor of Wood");
 	}
 	Wood(String type,double price,String woodName){
 		this(type,price);
