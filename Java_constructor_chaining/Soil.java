@@ -1,3 +1,6 @@
+//STATIC VARIABLE AND METHOD 
+//INSTANCE VARIABLE AND METHOD
+
 class Soil{
 	static String mineralsInPercentage;
 	static int organicMater;
