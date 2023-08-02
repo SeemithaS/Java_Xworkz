@@ -6,6 +6,7 @@ public String brand = "HP";
 	
 	public Laptop() {
 		System.out.println("No arg constructor of Laptop");
+		System.out.println("Brand: "+brand);
 	}
 
 	public void shutDown() {
