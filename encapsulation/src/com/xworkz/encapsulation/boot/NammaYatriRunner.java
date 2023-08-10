@@ -9,7 +9,7 @@ public class NammaYatriRunner {
         NammaYatri nammaYatri = new NammaYatri();
 
         System.out.println("Passenger Name: " + nammaYatri.getPassengerName());
-        nammaYatri.setPassengerName("Alice Johnson");
+        nammaYatri.setPassengerName("Seemitha");
         System.out.println("Passenger Name: " + nammaYatri.getPassengerName());
         
         System.out.println("Source Location: " + nammaYatri.getSourceLocation());
@@ -21,7 +21,7 @@ public class NammaYatriRunner {
         System.out.println("Destination Location: " + nammaYatri.getDestinationLocation());
         
         System.out.println("Travel Date: " + nammaYatri.getTravelDate());
-        nammaYatri.setTravelDate("2023-08-20");
+        nammaYatri.setTravelDate("20-07-2023");
         System.out.println("Travel Date: " + nammaYatri.getTravelDate());
         
         System.out.println("Travel Time: " + nammaYatri.getTravelTime());
